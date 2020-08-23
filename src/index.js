@@ -1,36 +1,36 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from './components/Header';
+// import Header from './components/Header';
 // import Intro from './components/Intro';
 import Gallery from './components/Gallery';
 
 import "./styles.css";
 
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+// import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      main: '#0e1525'
-    },
-    secondary: {
-      main: '#c93838'
-    },
-  },
-  status: {
-    danger: 'orange',
-  },
-});
+// const theme = createMuiTheme({
+//   palette: {
+//     primary: {
+//       main: '#0e1525'
+//     },
+//     secondary: {
+//       main: '#c93838'
+//     },
+//   },
+//   status: {
+//     danger: 'orange',
+//   },
+// });
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    // <ThemeProvider theme={theme}>
       <div className="App">
-        <Header />
+        {/* <Header /> */}
         {/* <Intro /> */}
         <Gallery />
       </div>
-    </ThemeProvider>
+    // </ThemeProvider>
   );
 }
 

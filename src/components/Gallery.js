@@ -58,7 +58,6 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-import data from '../data.json'
 
 export default function Gallery() {
   const classes = useStyles();
